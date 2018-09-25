@@ -89,4 +89,4 @@ Invoke-RestMethod -Uri "$WEBHOOK_URL" -Method "POST" -UserAgent "AppVeyor-Webhoo
   -ContentType "application/json" -Header @{"X-Author"="k3rn31p4nic#8383"} `
   -Body $WEBHOOK_DATA
 
-Write-Output "[Webhook]: Successfully sent the webhook."
+Write-Output "[Webhook]: Successfully sent the webhook to the GDE Server."
