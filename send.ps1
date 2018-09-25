@@ -29,7 +29,7 @@ Switch ($STATUS) {
     Break
   }
 }
-$AVATAR="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Appveyor_logo.svg/256px-Appveyor_logo.svg.png"
+$AVATAR="https://cdn.discordapp.com/icons/467885469108142100/f16fd7fe5d3f1ed6f3717667d209480a.webp"
 
 if (!$env:APPVEYOR_REPO_COMMIT) {
   $env:APPVEYOR_REPO_COMMIT="$(git log -1 --pretty="%H")"
