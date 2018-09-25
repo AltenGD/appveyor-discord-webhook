@@ -57,7 +57,7 @@ else {
 $BUILD_VERSION = [uri]::EscapeDataString($env:APPVEYOR_BUILD_VERSION)
 $TIMESTAMP="$(Get-Date -format s)Z"
 $WEBHOOK_DATA="{
-  ""username"": """",
+  ""username"": ""GD Edit | Appveyor CI"",
   ""avatar_url"": ""$AVATAR"",
   ""embeds"": [ {
     ""color"": $EMBED_COLOR,
